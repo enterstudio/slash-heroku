@@ -45,7 +45,7 @@ end
 
 group :test do
   gem "capybara"
-  gem "codeclimate-test-reporter", require: nil
+  gem "codeclimate-test-reporter", ">= 0.6.0", require: nil
   gem "timecop"
   gem "webmock", require: false
 end
