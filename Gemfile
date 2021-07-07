@@ -8,7 +8,7 @@ gem "activejob", ">= 5.0.0.1", "< 5.1"
 gem "activemodel", ">= 5.0.0.1", "< 5.1"
 gem "activerecord", ">= 5.0.0.1", "< 5.1"
 gem "activesupport", ">= 5.0.0.1", "< 5.1"
-gem "addressable"
+gem "addressable", ">= 2.8.0"
 gem "bundler", ">= 1.3.0", "< 2.0"
 gem "coal_car", "~> 0.2"
 gem "coffee-rails", "~> 4.1.0"
@@ -44,10 +44,10 @@ group :development, :test do
 end
 
 group :test do
-  gem "capybara"
+  gem "capybara", ">= 2.10.1"
   gem "codeclimate-test-reporter", require: nil
   gem "timecop"
-  gem "webmock", require: false
+  gem "webmock", ">= 2.1.0", require: false
 end
 
 group :development do
