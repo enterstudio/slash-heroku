@@ -39,7 +39,7 @@ group :development, :test do
   gem "byebug"
   gem "dotenv-rails"
   gem "pry"
-  gem "rspec-rails", "3.5.0"
+  gem "rspec-rails", "8.0.0"
   gem "rubocop"
 end
 
